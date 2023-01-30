@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bug Report Form</title>
+        <link href='https://fonts.ebay.com/ebay-market-sans' rel='stylesheet'>
+	    <style>
+	            body {
+		                font-family: 'eBay Market Sans', sans-serif;
+				            color: #1b2838;
+					                background-color: #f5f5f5;
+							        }
+								        .form-group {
+									            margin-bottom: 1rem;
+										            }
+											            .form-group label {
+												                display: block;
+														            font-weight: 600;
+															                margin-bottom: 0.5rem;
+																	        }
+																		        .form-group input[type="text"], .form-group textarea {
+																			            width: 100%;
+																				                padding: 0.5rem;
+																						            font-size: 1rem;
+																							                border-radius: 0.25rem;
+																									            border: 1px solid #e5e5e5;
+																										            }
+																											            .form-group input[type="text"]:focus
+																												            {
+																													                border-color: #e5e5e5;
+																															            background-color: #fff;
+																																                outline: none;
+																																		        }
+																																			        .form-group input[type="text"]:invalid {
+																																				            border-color: #eb3c00;
+																																					            }
+																																						            .form-group input[type="submit"] {
+																																							                background-color: #eb3c00;
+																																									            color: #fff;
+																																										                padding: 0.5rem 1rem;
+																																												            border: none;
+																																													                border-radius: 0.25rem;
+																																															            cursor: pointer;
+																																																            }
+																																																	        </style>
+																																																		</head>
+																																																		<body>
+																																																		    <form method="post" action="/submit_form">
+																																																		            <div class="form-group">
+																																																			                <label for="summary">Summary</label>
+																																																					            <input type="text" id="summary" name="summary" placeholder="Enter a brief summary of the bug" required>
+																																																						            </div>
+																																																							            <div class="form-group">
+																																																								                <label for="description">Description</label>
+																																																										            <textarea id="description" name="description" placeholder="Provide a detailed description of the bug" required></textarea>
+																																																											            </div>
+																																																												            <div class="form-group">
+																																																													                <label for="expected_result">Expected Result</label>
+																																																															            <input type="text" id="expected_result" name="expected_result" placeholder="Enter the expected result" required>
+																																																																            </div>
+																																																																	            <div class="form-group">
+																																																																		                <label for="actual_result">Actual Result</label>
+																																																																				            <input type="text" id="actual_result" name="actual_result" placeholder="Enter the actual result" required>
+																																																																					            </div>
+																																																																						            <div class="form-group">
+																																																																							                <label for="steps_to_reproduce">Steps to Reproduce</label>
+																																																																									            <ol id="steps_to_reproduce">
+																																																																										                    <li><input type="text" name="steps_to_reproduce" placeholder="Step 1" required></li>
+																																																																												                    <
+

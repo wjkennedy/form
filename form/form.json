@@ -1,0 +1,61 @@
+{
+  "fields": [
+    {
+      "name": "summary",
+      "label": "Summary:",
+      "type": "text",
+      "placeholder": "Enter a brief summary of the issue",
+      "required": true
+    },
+    {
+      "name": "description",
+      "label": "Description:",
+      "type": "textarea",
+      "placeholder": "Enter a detailed description of the issue",
+      "required": true
+    },
+    {
+      "name": "expected-result",
+      "label": "Expected Result:",
+      "type": "text",
+      "placeholder": "Enter the expected result",
+      "required": true
+    },
+    {
+      "name": "actual-result",
+      "label": "Actual Result:",
+      "type": "text",
+      "placeholder": "Enter the actual result",
+      "required": true
+    },
+    {
+      "name": "steps-to-reproduce",
+      "label": "Steps to Reproduce:",
+      "type": "steps",
+      "steps": [
+        {
+          "name": "step-1",
+          "placeholder": "Enter step 1"
+        },
+        {
+          "name": "step-2",
+          "placeholder": "Enter step 2"
+        },
+        {
+          "name": "step-3",
+          "placeholder": "Enter step 3"
+        },
+        {
+          "name": "step-4",
+          "placeholder": "Enter step 4"
+        },
+        {
+          "name": "step-5",
+          "placeholder": "Enter step 5"
+        }
+      ],
+      "required": true
+    }
+  ]
+}
+
